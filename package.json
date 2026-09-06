@@ -1,0 +1,26 @@
+{
+  "name": "devtinde",
+  "version": "1.0.0",
+  "description": "tinder for devs",
+  "keywords": [
+    "nodejs",
+    "js"
+  ],
+  "license": "ISC",
+  "author": "\"Siddhart\",",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ds": "It is metadata for the project",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
