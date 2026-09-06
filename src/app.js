@@ -7,9 +7,7 @@ app.use("/home", (req, res) => {
   res.send("hello from home page");
 });
 
-app.use("/contact", (req, res) => {
-  res.send("hello from contact page");
-});
+
 
 app.use("/log",(req,res)=>{
   res.send("login page");
